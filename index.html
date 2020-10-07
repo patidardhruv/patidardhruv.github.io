@@ -60,7 +60,7 @@
                                     <a class="nav-link color-aqua-hover" href="index.html#WhyUs">Why Us?</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link color-grey-hover" href="index.html#Pricing">Pricing</a>
+                                    <a class="nav-link color-grey-hover" href="index.html#Pricing">FAQs</a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link color-grey-hover" href="index.html#ContactUs">Contact Us</a>
@@ -84,10 +84,11 @@
           <div class="row">
              <div class="full">
                   <div class="slider_banner">
-                    <img class="img-responsive" src="images/dashpi.jpg" alt="#" />
+                     <img class="img-responsive visible-mobile" src="images/dashpi_mob.jpg" alt="#" />
+                     <img class="img-responsive hidden-mobile" src="images/dashpi.jpg" alt="#" />
                       <div class="slide_cont">
-                        <div class="slider_cont_inner" style="vertical-align: 30%;">
-                          <h3>The Future Is Now.</h3>
+                        <div class="slider_cont_inner dashtext" style="vertical-align: 30%;">
+                          <h3 class="dashtitle">The Future Is Now.</h3>
                         <p>We at Codrives aim to provide driver-assist capabilities to medium and heavy weight vehicles that ply on highways/major supply chain routes.</p>
                         </div>
                       </div>
@@ -103,11 +104,11 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-12 text_align_center">
-                  <div class="full heading_s1">
+                  <div class="full heading_s1" id="About">
                      <h2>About</h2>
                   </div>
-                  <div class="full" id="About">
-                     <p class="large">We are developing a plug and play computer vision based driver assist system. We plan to target trucks and similar freight vehicles first and then expand from there. Coming for early adopters in mid-2022.</p>
+                  <div class="full">
+                     <p class="large">At Codrives, we are working on getting a vision-based advanced driver assist system to companies to reduce operational costs,increase driver and goods safety and comfort with indian roads as key a focus and targeting to make it affordable.</p>
                   </div>
                </div>
                <div class="col-lg-12">
@@ -151,12 +152,12 @@
       <!-- end about section -->
 
       <!-- section -->
-      <section class="layout_padding section">
+      <section class="layout_padding section" style="padding: 0px;">
          <div class="container">
             <div class="row">
                <div class="col-lg-12 text_align_center">
                   <div class="full heading_s1" id="WhyUs">
-                     <h2>Why use our services?</h2>
+                     <h2 style="text-align: left;">Why use our services?</h2>
                   </div>
                   <div class="full">
                      <p class="large">While promising safe operation under all weather conditions, we assure you that the following benefits of our services make it a complete and immensely profitable package.</p>
@@ -170,23 +171,23 @@
                    <img class="img-responsive" src="images/Happy_driver.png" alt="#" />
                  </div>
                  <h3>Happy Drivers</h3>
-                 <p>Drivers have less fatigue, and hence work happily. This means they will be able to cover more distaance while under lesser stress. Driver awareness is checked.</p>
+                 <p>Drivers have less fatigue, and hence work happily. This means they will be under lesser stress. Driver awareness is checked.</p>
               </div>  
 
               <div class="col-md-4 text_align_center">
                  <div class="cours">
                    <img class="img-responsive" src="images/Fits_anywhere.png" alt="#" />
                  </div>
-                 <h3>Fits Everywhere</h3>
-                 <p>We create driver-assist modules that can be retrofitted to any vehicle.</p>
+                 <h3>Seamless Installation</h3>
+                 <p>We create driver-assist modules that you can easily integrate with trucks using our interceptor chips as long as your truck meets our requirements for interfacing.</p>
               </div> 
 
               <div class="col-md-4 text_align_center">
                  <div class="cours">
                    <img class="img-responsive" src="images/Savings.png" alt="#" />
                  </div>
-                 <h3>Savings in fuel costs</h3>
-                 <p>Our product cuts fuel consumption by 10% on average, which can save crores in operation costs. Lesser costs translate to more profits.</p>
+                 <h3>Increased Profits</h3>
+                 <p>Shorter travel time owing to reduced driver fatigue increased drive time and safety. Our product also cuts fuel consumption by 10% on average, which can save crores in operation costs.</p>
               </div> 
             </div>
          </div>
@@ -194,23 +195,100 @@
       <!-- end section -->
 
       <!-- section -->
-      <section class="layout_padding section" style="padding: 0px;">
-         <div class="container-fluid">
+      <section class="layout_padding section">
+         <div class="container">
             <div class="row">
                <div class="col-lg-12 text_align_center">
                   <div class="full heading_s1" id="Pricing">
-                     <h2>Pricing</h2>
+                     <h2>FAQs</h2>
                   </div>
                </div>
             </div>
             <div class="row">
               <div class="col-md-12 cours_timging_bg">
                  <div class="container">
-                    <div class="time_table">
-                        <li>Hardware costs of about 1000USD(75,000 INR) with the self driving package as subscription service.</li>
-                        <li>Monthly subscription costs varying from anywhere between 2500 INR to 5000 INR per truck  depending on services chosen.</li>
-                        <li>Large enterprises being charged slightly differently and being offered a wider variety of services.</li>
-                       </div>
+                  <div class="accordion" id="accordionExample" style="margin-top:20px;">
+                     
+                     <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn-faq btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What about the pricing?
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            We are actively working on bringing down the effective cost of our hardware solution to less than $1000 with our software being a subscription service that is priced reasonably.                
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn-faq btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                              When can I get this?
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                           Vehicular safety is very important to us,once our solution has undergone rigorous testing both at hardware and software scale both internally and externally we would be releasing it out early adopters whose vehicles ply on major national highways and freeways,so tentatively by mid 2022. Want to know more? Get in touch with us!
+                          </div>
+                         </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn-faq btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                              What are our target countries?
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                           Our primary focus for deployment is India,but we strongly believe we should be able to scale our solution to the rules,needs and requirements in other countries like the Middle East, Africa and Europe owing to the vast vehicular and road diversity in India and similarity of some Indian roads to these countries.
+                          </div>
+                         </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn-faq btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                              Who can benefit from our system?
+                            </button>
+                          </h2>
+                        </div>
+                    
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                           Logistics companies, medium to large sized fleet owners, large scale industries, food transportation, etc.
+                          </div>
+                        </div>
+                                           
+                        <div class="card">
+                           <div class="card-header" id="headingFive">
+                             <h2 class="mb-0">
+                               <button class="btn-faq btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                 What do I do if my query isn't listed?
+                               </button>
+                             </h2>
+                           </div>
+                       
+                           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                             <div class="card-body">
+                              Contact us through mail or phone or fill this form.
+                             </div>
+                           </div>
+                        </div>
+                      </div>
+                   </div>
                  </div>        
               </div> 
             </div>

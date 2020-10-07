@@ -109,7 +109,7 @@ p {
     color: #9f9f9f;
 }
 
-p {
+p{
     margin-bottom: 30px;
     font-size: 20px;
     line-height: normal;
@@ -682,6 +682,7 @@ form#commant_form div.field textarea.custom_field {
     font-size: 24px;
     color: #000;
     float: left;
+    margin-left: 15px;
 }
 
 .time_table {
@@ -4655,14 +4656,55 @@ form#commant_form div.field textarea.custom_field {
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 0.8s;
+	animation-duration: 1s;
 }
 
 @keyframes fadeInOpacity {
 	0% {
-		opacity: 0.5;
+		opacity: 0.7;
 	}
 	100% {
 		opacity: 1;
 	}
+}
+
+/* Image responsiveness */
+.visible-mobile {
+    display: none !important;
+  }
+  
+  @media (max-width: 489px) {
+    .visible-mobile {
+      display: inline !important;
+    }
+  
+    .hidden-mobile {
+      display: none !important;
+    }
+    .dashtitle{
+        float: top;
+        line-height: 50px;
+        text-align: center;
+    }
+    .slide_cont {
+        top:250px;
+        width: 100%;
+    }
+  }
+
+.dashtext{
+    max-width: 100%;
+}
+
+.btn-faq{
+    font-size: 22px;
+    font-family:'Poppins', sans-serif;
+}
+
+.accordion{
+    opacity: 0.9;
+}
+
+.card-body{
+    font-size: 18px;
 }
