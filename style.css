@@ -4720,3 +4720,7 @@ form#commant_form div.field textarea.custom_field {
         margin-bottom: 50px;
     }
 }
+
+.linkstyle{
+    color: turquoise;
+}
