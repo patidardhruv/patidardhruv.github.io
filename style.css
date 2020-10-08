@@ -4708,3 +4708,15 @@ form#commant_form div.field textarea.custom_field {
 .card-body{
     font-size: 18px;
 }
+
+@media (min-width: 1200px) {
+    .smallname{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .smallestname{
+        margin-bottom: 50px;
+    }
+}
