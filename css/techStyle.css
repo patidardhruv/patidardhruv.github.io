@@ -1,0 +1,121 @@
+.fixedStuff{
+    position: fixed;
+}
+
+.NumberOne{
+    background: url("/images/TechPage/Art_Blue_real-removebg-preview.png");
+    background-repeat: no-repeat;
+}
+
+.NumberTwo{
+    background: url("/images/TechPage/Art_brown-removebg-preview.png");
+    background-repeat: no-repeat;
+}
+
+.NumberThree{
+    background: url("/images/TechPage/Art_green-removebg-preview.png");
+    background-repeat: no-repeat;
+}
+
+.NumberFour{
+    background: url("/images/TechPage/Art_orangejpg-removebg-preview.png");
+    background-repeat: no-repeat;
+}
+
+.NumberFive{
+    background: url("/images/TechPage/Art_Red-removebg-preview.png");
+    background-repeat: no-repeat;
+}
+
+.FirstPage{
+    background: url("/images/TechPage/FIDark.jpg");
+}
+
+.SecondPage{
+    background: url("/images/TechPage/SIDark.jpg");
+}
+
+.ThirdPage{
+    background: url("/images/TechPage/TIDark.jpg");    
+}
+
+.pageContent{
+    height: 100%;
+    width: auto;
+    color: white;
+    font-size: larger;
+}
+
+.points{
+    font-size: 30px;
+    padding-top: 10px;
+    width: calc(100% - 100px);
+    margin-left: 10px;
+}
+
+.pointNumbering{
+    font-size: 100px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+.rightFlex{
+    display: flex;
+    padding: 30px;
+}
+
+.pageContent{
+    padding: 8% 20%;
+    align-self: center;
+    align-content: center;
+}
+
+.Headingg{
+    text-align: center;
+    color: white;
+    width: 100vw;
+}
+
+.nav-link{
+    text-align: left;
+}
+
+/* Mobile Styling */
+@media (max-width: 489px) {
+    .Headingg{
+        font-size: 30px;
+        height: 35px;
+        margin-top: -10px;
+    }
+    .pointNumbering{
+        padding: 10px;
+        font-size: 40px;
+        background-size: 120%;
+        background-position: 0px 10px;
+    }
+    .pageContent{
+        padding: 0px;
+    }
+    .points{
+        font-size: 18px;
+        width: 100%;
+    }
+    .rightFlex{
+        padding: 3%;
+    }
+    .full{
+        height: 60px;
+    }
+
+    .FirstPage{
+        background: url("/images/TechPage/FIDarkMob.jpg");
+    }
+    .SecondPage{
+        background: url("/images/TechPage/SIDarkMob.jpg");
+    }
+    .ThirdPage{
+        background: url("/images/TechPage/TIDarkMob.jpg");    
+    }
+}

@@ -4181,7 +4181,7 @@ tbody.collapse.show {
     display: -webkit-flex !important;
     display: -ms-flexbox !important;
     display: flex !important;
-    width: 100%;
+    /* width: 100%; */
   }
   .navbar-toggleable-md .navbar-toggler {
     display: none;
