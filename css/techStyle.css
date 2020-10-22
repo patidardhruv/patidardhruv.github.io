@@ -82,6 +82,10 @@
     text-align: left;
 }
 
+.row{
+    margin-right: -100px;
+}
+
 /* Mobile Styling */
 @media (max-width: 489px) {
     .Headingg{

@@ -4724,3 +4724,7 @@ form#commant_form div.field textarea.custom_field {
 .linkstyle{
     color: turquoise;
 }
+
+.row{
+    margin-right: -100px;
+}
